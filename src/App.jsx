@@ -526,20 +526,20 @@ function App() {
         >
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-500 text-sm mb-2 md:mb-0">
-              Market data provided by BRS API
+              designer : Mohammad hoseyn soleymanpour
             </p>
             <div className="flex items-center gap-4">
               <a
                 href="#"
                 className="text-gray-400 hover:text-indigo-400 transition-colors text-sm"
               >
-                Privacy Policy
+                dedicated to father
               </a>
               <a
                 href="#"
                 className="text-gray-400 hover:text-indigo-400 transition-colors text-sm"
               >
-                Terms of Service
+                Behroz s
               </a>
             </div>
           </div>
