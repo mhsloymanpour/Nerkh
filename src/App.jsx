@@ -242,7 +242,7 @@ function App() {
         <motion.header
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="mb-8 md:mb-12"
+          className="mb-6 md:mb-8"
         >
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 mb-6">
             <div className="flex items-center">
@@ -339,58 +339,6 @@ function App() {
             </div>
           </div>
         </motion.header>
-
-        {/* Stats Summary */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.2 }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8"
-        >
-          <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 border border-gray-700 shadow-lg">
-            <div className="flex items-center justify-between">
-              <div>
-                <p className="text-sm text-gray-400">Total Items</p>
-                <h3 className="text-2xl font-bold text-white">
-                  {filteredData().length}
-                </h3>
-              </div>
-              <div className="p-3 rounded-lg bg-indigo-500/10 text-indigo-400">
-                <FaChartBar className="text-xl" />
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 border border-gray-700 shadow-lg">
-            <div className="flex items-center justify-between">
-              <div>
-                <p className="text-sm text-gray-400">Last Updated</p>
-                <h3 className="text-2xl font-bold text-white">
-                  {data.gold[0]?.time}
-                </h3>
-              </div>
-              <div className="p-3 rounded-lg bg-green-500/10 text-green-400">
-                <FaChartLine className="text-xl" />
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 border border-gray-700 shadow-lg">
-            <div className="flex items-center justify-between">
-              <div>
-                <p className="text-sm text-gray-400">Market Status</p>
-                <h3 className="text-2xl font-bold text-white">
-                  {new Date().getHours() >= 8 && new Date().getHours() < 17
-                    ? "Open"
-                    : "Closed"}
-                </h3>
-              </div>
-              <div className="p-3 rounded-lg bg-yellow-500/10 text-yellow-400">
-                <FaInfoCircle className="text-xl" />
-              </div>
-            </div>
-          </div>
-        </motion.div>
 
         {/* Main Content */}
         {filteredData().length === 0 ? (
