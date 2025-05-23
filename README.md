@@ -20,18 +20,7 @@
 
 📡 API: [نام API استفاده شده، مثلاً «API بانک مرکزی» یا «CoinGecko»]
 
-🚀 راه‌اندازی پروژه
-۱. کلون کردن ریپو
-bash
-git clone https://github.com/username/gold-currency-tracker.git
-cd gold-currency-tracker
-۲. نصب dependencies
-bash
-npm install
-۳. اجرای پروژه
-bash
-npm run dev
-سپس پروژه در آدرس http://localhost:3000 اجرا می‌شود.
+
 
 📌 نحوه استفاده
 برای دریافت آخرین قیمت‌ها، کافیست صفحه را باز کنید (داده‌ها به صورت خودکار آپدیت می‌شوند).
