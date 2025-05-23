@@ -1,12 +1,54 @@
-# React + Vite
+💰 سایت نرخ (Nerkh)
+📌 پروژه: یک وب‌اپلیکیشن مدرن و سریع برای نمایش لحظه‌ای قیمت طلا، ارزهای دیجیتال و نرخ تبدیل ارزها، طراحی شده با React و Vite، همراه با Tailwind CSS و DaisyUI برای ظاهری زیبا و واکنش‌گرا.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Preview (می‌توانید یک اسکرین‌شات واقعی از پروژه اضافه کنید)
 
-Currently, two official plugins are available:
+✨ ویژگی‌های کلیدی
+✅ نمایش قیمت لحظه‌ای طلا (عیار مختلف)، ارزهای جهانی و رمزارزها
+✅ طراحی تمیز و مدرن با Tailwind CSS + DaisyUI
+✅ سریع و بهینه با React + Vite
+✅ واکنش‌گرا (کاربردی در موبایل و دسکتاپ)
+✅ استفاده از API معتبر برای داده‌های مالی
+✅ امکان جستجو و فیلتر کردن ارزها
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ تکنولوژی‌های استفاده شده
+⚛️ Frontend: React.js + Vite
 
-## Expanding the ESLint configuration
+🎨 Styling: Tailwind CSS + DaisyUI (برای کامپوننت‌های آماده)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔄 State Management: React Hooks (یا Zustand/Redux اگر استفاده کرده‌اید)
+
+📡 API: [نام API استفاده شده، مثلاً «API بانک مرکزی» یا «CoinGecko»]
+
+🚀 راه‌اندازی پروژه
+۱. کلون کردن ریپو
+bash
+git clone https://github.com/username/gold-currency-tracker.git
+cd gold-currency-tracker
+۲. نصب dependencies
+bash
+npm install
+۳. اجرای پروژه
+bash
+npm run dev
+سپس پروژه در آدرس http://localhost:3000 اجرا می‌شود.
+
+📌 نحوه استفاده
+برای دریافت آخرین قیمت‌ها، کافیست صفحه را باز کنید (داده‌ها به صورت خودکار آپدیت می‌شوند).
+
+می‌توانید ارزهای خاص را جستجو کنید یا بر اساس معیارهای مختلف فیلتر نمایید.
+
+🤝 مشارکت در پروژه
+اگر می‌خواهید به پروژه کمک کنید:
+۱. یک Issue ایجاد کنید (برای پیشنهاد ویژگی جدید یا گزارش باگ).
+۲. ریپو را Fork کنید و تغییرات خود را اعمال نمایید.
+۳. یک Pull Request ارسال کنید.
+
+📜 لایسنس
+این پروژه تحت MIT License منتشر شده است. برای جزئیات بیشتر فایل LICENSE را مطالعه کنید.
+
+💡 نکته: اگر از یک API خاص استفاده کرده‌اید، حتما لینک مستندات آن را در بخش API Reference اضافه کنید.
+
+🎉 ممنون که از این پروژه استفاده می‌کنید! اگر سوالی دارید، خوشحال می‌شوم کمک کنم.
+
+GitHub Stars (اگر پروژه را روی GitHub منتشر کردید، می‌توانید بجای username، نام کاربری خود را قرار دهید.)
