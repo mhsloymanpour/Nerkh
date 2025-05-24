@@ -1,43 +1,31 @@
-💰 سایت نرخ (Nerkh)
-📌 پروژه: یک وب‌اپلیکیشن مدرن و سریع برای نمایش لحظه‌ای قیمت طلا، ارزهای دیجیتال و نرخ تبدیل ارزها، طراحی شده با React و Vite، همراه با Tailwind CSS و DaisyUI برای ظاهری زیبا و واکنش‌گرا.
+# 💰 Nerkh (نرخ) - Real-Time Financial Rates Web App  
 
+📌 A modern and fast web application for displaying real-time gold prices, cryptocurrencies, and currency exchange rates. Built with React and Vite, styled with Tailwind CSS and DaisyUI for a beautiful responsive interface.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![React](https://img.shields.io/badge/React-18.x-blue)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-4.x-brightgreen)](https://vitejs.dev/)
 
-✨ ویژگی‌های کلیدی
-✅ نمایش قیمت لحظه‌ای طلا (عیار مختلف)، ارزهای جهانی و رمزارزها
-✅ طراحی تمیز و مدرن با Tailwind CSS + DaisyUI
-✅ سریع و بهینه با React + Vite
-✅ واکنش‌گرا (کاربردی در موبایل و دسکتاپ)
-✅ استفاده از API معتبر برای داده‌های مالی
-✅ امکان جستجو و فیلتر کردن ارزها
+## ✨ Key Features
 
-🛠️ تکنولوژی‌های استفاده شده
-⚛️ Frontend: React.js + Vite
+✅ Real-time prices for gold (various karats), fiat currencies, and cryptocurrencies  
+✅ Clean, modern UI with Tailwind CSS + DaisyUI  
+✅ Blazing fast performance with React + Vite  
+✅ Fully responsive (works on mobile & desktop)  
+✅ Reliable financial data from trusted APIs  
+✅ Search and filter functionality for currencies  
 
-🎨 Styling: Tailwind CSS + DaisyUI (برای کامپوننت‌های آماده)
+## 🛠️ Technologies Used
 
-🔄 State Management: React Hooks (یا Zustand/Redux اگر استفاده کرده‌اید)
+**Frontend:**  
+⚛️ React.js + Vite  
 
-📡 API: [نام API استفاده شده، مثلاً «API بانک مرکزی» یا «CoinGecko»]
+**Styling:**  
+🎨 Tailwind CSS + DaisyUI (for ready-made components)  
 
+**State Management:**  
+🔄 React Hooks  
 
-
-📌 نحوه استفاده
-برای دریافت آخرین قیمت‌ها، کافیست صفحه را باز کنید (داده‌ها به صورت خودکار آپدیت می‌شوند).
-
-می‌توانید ارزهای خاص را جستجو کنید یا بر اساس معیارهای مختلف فیلتر نمایید.
-
-🤝 مشارکت در پروژه
-اگر می‌خواهید به پروژه کمک کنید:
-۱. یک Issue ایجاد کنید (برای پیشنهاد ویژگی جدید یا گزارش باگ).
-۲. ریپو را Fork کنید و تغییرات خود را اعمال نمایید.
-۳. یک Pull Request ارسال کنید.
-
-📜 لایسنس
-این پروژه تحت MIT License منتشر شده است. برای جزئیات بیشتر فایل LICENSE را مطالعه کنید.
-
-💡 نکته: اگر از یک API خاص استفاده کرده‌اید، حتما لینک مستندات آن را در بخش API Reference اضافه کنید.
-
-🎉 ممنون که از این پروژه استفاده می‌کنید! اگر سوالی دارید، خوشحال می‌شوم کمک کنم.
-
+**API:**  
+📡 [API Name] (e.g., Central Bank API or CoinGecko)  
 
